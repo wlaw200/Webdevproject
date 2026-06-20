@@ -1,0 +1,37 @@
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5rem;
+    z-index: 2;
+    background: #54dbba;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.65rem;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-name {
+    color: aliceblue;
+    font-size: 1.7rem;
+    animation: show 1s;
+}
+
+.btn-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.btn-header a {
+  position: relative;     
+  white-space: nowrap;
+}

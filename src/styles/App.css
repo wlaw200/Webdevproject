@@ -1,0 +1,10 @@
+.App {
+    text-align: center;
+}
+
+a, a:active, a:hover {
+  text-decoration: none;
+  color: white;
+  outline: 0;
+}
+
